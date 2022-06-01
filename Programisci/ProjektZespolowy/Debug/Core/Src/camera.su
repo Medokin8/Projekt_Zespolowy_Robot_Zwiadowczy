@@ -1,0 +1,14 @@
+../Core/Src/camera.c:18:5:SCCB_Read	24	static
+../Core/Src/camera.c:26:5:SCCB_Write	40	static
+../Core/Src/camera.c:40:6:camera_Init	16	static
+../Core/Src/camera.c:48:6:camera_Reset	8	static
+../Core/Src/camera.c:65:6:camera_Configuration	24	static
+../Core/Src/camera.c:78:6:camera_configureResolution	16	static
+../Core/Src/camera.c:91:6:camera_ResolutionConfiguration	16	static
+../Core/Src/camera.c:112:6:camera_CaptureContinuous	92168	static
+../Core/Src/camera.c:124:6:camera_CaptureSnapshot	92176	static
+../Core/Src/camera.c:155:9:camera_ReadID	16	static
+../Core/Src/camera.c:164:6:camera_StopDCMI	8	static
+../Core/Src/camera.c:170:6:camera_setI2C	16	static
+../Core/Src/camera.c:175:6:camera_setDCMI	16	static
+../Core/Src/camera.c:180:6:camera_setUART	16	static
