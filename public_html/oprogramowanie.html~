@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang ="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+        <title>Robot Zwiadowczy</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico">
+
+    </head>
+
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <img class="big" src="pwr_logo.png" alt="prace_2_1 - header"/>
+            </header>
+
+            <nav>
+                <a class="menu" href="index.html">O projekcie</a>
+                <a class="menu" href="konstrukcja.html">Kostrukcja</a>
+                <a class="menu" href="elektronika.html">Elektronika</a>
+                <a class="menu active" href="oprogramowanie.html">Oprogramowanie</a>
+            </nav>
+
+            <section>
+                <article>
+                    <h1>Robot Zwiadowczy</h1>
+                    <p>
+                        W celu ralizacji zdalnego sterowania napisana została aplikacja z pomocą
+                        zewstawu bibliotek Qt. Technologia ta pozwoliła na napisanie przenośnej     
+                        aplikacji komunikującej się z robotem korzystając ze standardu BT. Do robota
+                        wysyłana jest ramka danych o poniższej formie:
+                        "[pdr] \-*[0-100] \-*[0-100]" 
+                        Gdzie liczby oznaczają wypełnienia sterujących sygnałów PWM, a znak wyznacza
+                        kierunek ruchu. Wypełnienia te generowane są na podstawie pozycji myszki na polu
+                        sterującym w kształcie rombu, a litery oznaczają czynność wykonaną za pomocą
+                        myszki - przyciśnięcie, przeciągnięcie, puszczenie. Demonstracja działania aplikacji wraz ze sterowanie 
+                        znajduję się na poniższym filmie.
+                    </p>
+                </article>
+                <iframe width="1000" height="563" src="https://www.youtube.com/embed/49TTavVtYfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <article>
+                <h4>Repozytorium na platformie GitHub</h4>
+                    <p>
+                        Pod poniższym linkiem można przejrzeć raporty oraz inne elementy tej sekcji.
+                        <br>
+                        <a href="https://github.com/MedokinStudia/Projekt_Zespolowy_Robot_Zwiadowczy/tree/main/Programisci">https://github.com/MedokinStudia/Projekt_Zespolowy_Robot_Zwiadowczy/tree/main/Programisci</a>
+                    </p>
+                </article>
+
+            </section>
+
+            <footer>
+                Strona poświęcona Projektowi Robot Zwiadowczy.
+            </footer>
+        </div>
+
+    </body>
+</html>

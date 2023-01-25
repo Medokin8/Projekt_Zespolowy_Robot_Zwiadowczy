@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+        <title>Robot Zwiadowczy</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style_elektronika.css">
+        <link rel="icon" href="favicon.ico">
+
+    </head>
+
+
+    <body>
+        <div id="wrapper">
+            <header>
+                <img class="big" src="pwr_logo.png" alt="prace_2_1 - header"/>
+            </header>
+
+            <nav>
+                <a class="menu" href="index.html">O projekcie</a>
+                <a class="menu" href="konstrukcja.html">Kostrukcja</a>
+                <a class="menu active" href="elektronika.html">Elektronika</a>
+                <a class="menu" href="oprogramowanie.html">Oprogramowanie</a>
+            </nav>
+
+            <section>
+                <article>
+                    <h1>Elektronika</h1>
+                    <p><img class="left" src="elektronika_1.png" alt="Elektronika"/>
+                        Końcowym efektem prac zespołu elektroników jest płytka pozwalająca na sterowanie silnikami robota za pomocą dwóch sygnałów pwm
+                         sterujących prędkością obrótów silników oraz czterech sygnałów logicznych sterujących kierunkiem obrotów silników. <br>
+                          Płytka posiada wejścia, na które możliwe jest nałożenie mikrokontrolera STM.
+                           Na płytce występują dodatkowo 3 zestawy pinów (5V, 3.3V i GND) pozwalające na podłączanie do płytki dodatkowych peryferiów
+                            co pozwala na ewentualny rozwój konstrukcji w przyszłości.
+                    </p>
+                </article>
+                <iframe width="1000" height="563" src="https://www.youtube.com/embed/gqWc5dy_Gts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+            
+                <article>
+                    <h4>Repozytorium na platformie GitHub</h4>
+                        <p>
+                            Pod poniższym linkiem można przejżeć raporty oraz inne elementy tej sekcji.
+                            <br>
+                            <a href="https://github.com/MedokinStudia/Projekt_Zespolowy_Robot_Zwiadowczy/tree/main/Elektronicy">https://github.com/MedokinStudia/Projekt_Zespolowy_Robot_Zwiadowczy/tree/main/Elektronicy</a>
+                        </p>
+                    </article>
+            
+            </section>
+
+            <footer>
+                Strona poświęcona Projektowi Robot Zwiadowczy.
+            </footer>
+        </div>
+
+    </body>
+</html>
